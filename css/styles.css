@@ -1,0 +1,131 @@
+:root {
+    --primario: #f46669;
+    --secundario: #c7c57d;
+    --gris: #f5f5f5;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#303030;
+}
+p {
+    font-weight: 100;
+    line-height: 3.4rem;
+    font-size: 1.2rem;
+}
+.badge-secondary {
+    background-color: #c7c57d!important;
+    color: black;
+}
+
+.image > div{
+    height: 30rem;
+}
+@media (min-width:768px) {
+    .image > div{
+        height: 45rem;
+    }
+}
+.bg-primary {
+    background-color: #f46669!important;
+}
+.bg-secondary {
+    background-color: #c7c57d!important;
+}
+.bg-wine {
+    background-image: url(../img/main1.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.bg-food {
+    background-image: url(../img/main2.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.top .content{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.bottom .bg-food {
+    order: 1;
+}
+@media (min-width:768px) {
+    .bottom .bg-food {
+        order: unset;
+    }
+}
+.bottom .content {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.image .content p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 100;
+}
+.separator::after {
+    content:'';
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    background-image: url(../img/separator.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.about-us .info h3 {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.courses {
+    background-color: #f5f5f5;
+}
+.card {margin-bottom: 2rem;}
+.card-meta span {
+    font-weight: 700;
+}
+.card-subtitle {
+    color: #f46669;
+    font-weight: 400;
+}
+.card-body p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.card-body a {
+    color: #f46767;
+}
+
+.degree {
+    background-image: url(../img/chef_bg.jpg);
+}
+.degree .row{
+    height: 38rem;
+}
+.degree .content h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.degree .content p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.btn-primary {
+    background-color: #f46767;
+    border-color:#f46767;
+}
+.btn-primary:hover {
+    background-color: #dc4747;
+    border-color: #dc4747;
+}
+.footer {
+    border-bottom: 10px solid #f46767;
+}
+.nav-link {
+    color: black;
+    text-transform: uppercase;
+}
+.copyright {
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+}s
